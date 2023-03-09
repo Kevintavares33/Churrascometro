@@ -1,0 +1,25 @@
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    max-width: 300px;
+    max-height: 500px;
+    margin: auto;
+        
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./Fundo\ De\ Capa\ De\ Design\ Criativo\ De\ Chamas\ Ardentes.jpeg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
