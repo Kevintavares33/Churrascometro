@@ -1,2 +1,4 @@
 # Churrascometro
-Primeiro Pojeto no github
+Este foi o primeiro projeto publiocado no github, estou fazedo atualizações utilçizar como portifolio.
+# <a href='churrascometro-rho.vercel.app'>Click para conhcer</a>
+
