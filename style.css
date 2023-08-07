@@ -1,9 +1,13 @@
 #container{
-    font-family: Arial, Helvetica, sans-serif;
-    color:white;
+    font-family: 'Borel', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(221, 114, 14);
+    align-items: center;
     max-width: 300px;
     max-height: 500px;
     margin: auto;
+    margin-top: 100px;
         
 }
 
@@ -11,10 +15,13 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url(./Fundo\ De\ Capa\ De\ Design\ Criativo\ De\ Chamas\ Ardentes.jpeg);
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: cover;
+    background-image: url(./Buffet\ Barbecue\ Display\ Rack\ Background\ Material.jpeg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: repeat;
+    font-family: 'Borel', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 input{
     width: 100%;
@@ -22,4 +29,50 @@ input{
     padding: 5px;
     box-sizing: border-box;
     margin-bottom: 10px;
+    font-family: 'Borel', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
+/* Estilos padrão para todos os dispositivos */
+body {
+    font-size: 16px;
+  }
+  
+  #container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* Estilos específicos para dispositivos maiores (iPhone 12 Pro) */
+  @media only screen and (min-width: 428px) {
+    body {
+      font-size: 18px;
+    }
+  
+    #container {
+      width: 80%;
+    }
+  }
+  
+  /* Estilos específicos para dispositivos médios (iPhone XR) */
+  @media only screen and (max-width: 428px) and (min-width: 375px) {
+    body {
+      font-size: 16px;
+    }
+  
+    #container {
+      width: 90%;
+    }
+  }
+  
+  /* Estilos específicos para dispositivos menores (iPhone SE) */
+  @media only screen and (max-width: 375px) {
+    body {
+      font-size: 14px;
+    }
+  
+    #container {
+      width: 100%;
+    }
+  }
+  
