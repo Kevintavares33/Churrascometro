@@ -1,78 +1,39 @@
-#container{
-    font-family: 'Borel', cursive;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    color:rgb(221, 114, 14);
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./Buffet\ Barbecue\ Display\ Rack\ Background\ Material.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Borel', 'Oswald', 'Poppins', sans-serif;
+}
+
+#container {
+    color: rgb(221, 114, 14);
     align-items: center;
     max-width: 300px;
-    max-height: 500px;
-    margin: auto;
-    margin-top: 100px;
-        
+    margin: 10vh auto 0;
+    padding: 0;
 }
 
-
-body{
-    margin: 0px;
-    padding: 0px;
-    background-image: url(./Buffet\ Barbecue\ Display\ Rack\ Background\ Material.jpeg);
-    background-size:cover;
-    background-position:center;
-    background-repeat: repeat;
-    font-family: 'Borel', cursive;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Poppins', sans-serif;
-}
-input{
+input {
     width: 100%;
     display: block;
     padding: 5px;
     box-sizing: border-box;
     margin-bottom: 10px;
-    font-family: 'Borel', cursive;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
 }
-/* Estilos padrão para todos os dispositivos */
-body {
-    font-size: 16px;
-  }
-  
-  #container {
-    width: 90%;
-    margin: 0 auto;
-  }
-  
-  /* Estilos específicos para dispositivos maiores (iPhone 12 Pro) */
-  @media only screen and (min-width: 428px) {
+
+@media (max-width: 600px) {
     body {
-      font-size: 18px;
+        background-size: 100% auto;
+        background-size:cover;
+        background-position: center;
+        background-repeat:repeat ;
     }
-  
+
     #container {
-      width: 80%;
+        max-width: 90%;
     }
-  }
-  
-  /* Estilos específicos para dispositivos médios (iPhone XR) */
-  @media only screen and (max-width: 428px) and (min-width: 375px) {
-    body {
-      font-size: 16px;
-    }
-  
-    #container {
-      width: 90%;
-    }
-  }
-  
-  /* Estilos específicos para dispositivos menores (iPhone SE) */
-  @media only screen and (max-width: 375px) {
-    body {
-      font-size: 14px;
-    }
-  
-    #container {
-      width: 100%;
-    }
-  }
-  
+}
