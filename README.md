@@ -1,4 +1,5 @@
 # Churrascometro
 Este foi o primeiro projeto publiocado no github, estou fazedo atualizações utilçizar como portifolio.
-# <a href='churrascometro-rho.vercel.app'>Click para conhecer</a>
+# click para conhecer
+churrascometro-rho.vercel.app
 
