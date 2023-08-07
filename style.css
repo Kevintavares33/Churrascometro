@@ -30,10 +30,10 @@ input {
         background-size: 100% auto;
         background-size:cover;
         background-position: center;
-        background-repeat:repeat ;
+        background-repeat:repeat-y ;
     }
 
     #container {
-        max-width: 90%;
+        max-width: 100%;
     }
 }
